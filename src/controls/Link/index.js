@@ -129,7 +129,7 @@ class Link extends Component {
         const {
             editorState,
             onChange,
-            config: { trailingWhitespace = true },
+            config: { trailingWhitespace = false },
         } = this.props;
         const { currentEntity } = this.state;
         let selection = editorState.getSelection();
