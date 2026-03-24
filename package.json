@@ -1,8 +1,11 @@
 {
-  "name": "react-draft-wysiwyg",
+  "name": "@shapegames/react-draft-wysiwyg",
   "version": "1.14.7",
   "description": "A wysiwyg on top of DraftJS.",
   "main": "dist/react-draft-wysiwyg.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jpuri/react-draft-wysiwyg.git"
